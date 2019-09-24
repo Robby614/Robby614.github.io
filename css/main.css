@@ -8,6 +8,23 @@ html {
     font: 20px/1 sans-serif;
 }
 
+img {
+    width: 100%;
+    /* need to make the figure container */
+}
+
+ul{
+    list-style: none;
+}
+.main-header {
+    background-color: red;
+    padding: 1rem 2rem;
+}
+
+.main-header__title {
+    color: whitesmoke;
+}
+
 .wrapper{
     margin: 0 auto;
     max-width: 30rem;
