@@ -7,3 +7,9 @@
 html {
     font: 20px/1 sans-serif;
 }
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 30rem;
+    width: 90%;
+}
