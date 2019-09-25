@@ -17,36 +17,38 @@ ul{
     list-style: none;
 }
 .main-header {
-    background-color: rgb(16, 209, 223);
-    opacity: .8;
+    background-color:black;
+    opacity: 1;
     padding: 1rem 2rem;
 }
 
 .main-header__title {
-    color: rgb(133, 131, 8);
+    color: whitesmoke;
 }
 body {
-    background-image: url("https://www.redwallpapers.com/public/redwallpapers-large-thumb/mountains-forest-twilight-canyon-clouds-sunset-free-stock-photos-images-hd-wallpaper.jpg");
-    background-repeat: repeat-x;
+    background-image: url("http://www.desktopimages.org/pictures/2013/0408/1/mountains-landscape-bw-black-white-images-152550.jpg");
     background-attachment: scroll;
-    background-size: 250rem;
+    background-size: 100rem;
 }
 .Projects {
-    background-color: rgb(16, 209, 223);
-    opacity: .8;
+    background-color: black;
+    opacity: 1;
     padding: 1rem 2rem;
 }
 .AboutMe {
-    background-color: rgb(16, 209, 223);
-    opacity: .8;
+    background-color: black;
+    opacity: 1;
     padding: 1rem 2rem;
 }
 a:hover {
     background-color: yellowgreen;
 }
+a{
+    color: blanchedalmond;
+}
 .Contactinfo {
-    background-color: rgb(16, 209, 223);
-    opacity: .8;
+    background-color:black;
+    opacity: 1;
     padding: 1rem 2rem;
 }
 h2 {
@@ -60,4 +62,10 @@ h3 {
     margin: 0 auto;
     max-width: 30rem;
     width: 90%;
+}
+.navigation__list-item {
+    color: white;
+}
+.picture__description {
+    color: rgb(104, 79, 41);
 }
