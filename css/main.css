@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,12 +6,12 @@
 }
 
 html {
-    font: 20px/1 sans-serif;
+    font: 20px/1 "Big Shoulders Text", sans-serif;
 }
 
 img {
     width: 100%;
-    /* need to make the figure container */
+    
 }
 
 ul{
@@ -18,11 +19,15 @@ ul{
 }
 .main-header {
     background-color:black;
+    display: flex;
+    justify-content: space-between;
     opacity: 1;
     padding: 1rem 2rem;
 }
 
+
 .main-header__title {
+    align-items: center;
     color: whitesmoke;
 }
 body {
@@ -41,10 +46,11 @@ body {
     padding: 1rem 2rem;
 }
 a:hover {
-    background-color: yellowgreen;
+    background-color: rgb(78, 67, 5);
 }
 a{
     color: blanchedalmond;
+    text-decoration: none;
 }
 .Contactinfo {
     background-color:black;
@@ -60,12 +66,24 @@ h3 {
 
 .wrapper{
     margin: 0 auto;
-    max-width: 30rem;
+    max-width: 40rem;
     width: 90%;
 }
 .navigation__list-item {
+    margin-right: 1rem;
     color: white;
 }
+
+.navigation__list {
+    display: flex;
+}
+
 .picture__description {
     color: rgb(104, 79, 41);
+}
+.about__me {
+    color: white;
+}
+.personal-info {
+    background-color: black;
 }
