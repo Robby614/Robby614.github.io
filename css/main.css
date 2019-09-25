@@ -29,7 +29,7 @@ body {
     background-image: url("https://www.redwallpapers.com/public/redwallpapers-large-thumb/mountains-forest-twilight-canyon-clouds-sunset-free-stock-photos-images-hd-wallpaper.jpg");
     background-repeat: repeat-x;
     background-attachment: scroll;
-    background-size: 200rem;
+    background-size: 250rem;
 }
 .Projects {
     background-color: rgb(16, 209, 223);
@@ -40,6 +40,9 @@ body {
     background-color: rgb(16, 209, 223);
     opacity: .8;
     padding: 1rem 2rem;
+}
+a:hover {
+    background-color: yellowgreen;
 }
 .Contactinfo {
     background-color: rgb(16, 209, 223);
