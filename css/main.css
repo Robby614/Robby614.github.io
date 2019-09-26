@@ -10,7 +10,7 @@ html {
 }
 
 img {
-    width: 100%;
+    width: 50%;
     
 }
 
@@ -44,6 +44,7 @@ body {
     background-color: black;
     opacity: 1;
     padding: 1rem 2rem;
+    
 }
 a:hover {
     background-color: rgb(78, 67, 5);
@@ -84,6 +85,36 @@ h3 {
 .about__me {
     color: white;
 }
+h4 {
+   color: rgb(104, 79, 41)
+}
+
 .personal-info {
+    display: flex;
+    margin: 1rem auto;
+    padding: 11px;
+    max-width: 1000px;
     background-color: black;
 }
+.personal-info figure {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    text-align: left;
+}
+
+
+.collective-information {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px 100px 300px auto;
+     margin: 2rem auto;
+     background-color: black;
+}
+.picture__description {
+    line-height: 1.7;
+}
+
+
+
+
+
