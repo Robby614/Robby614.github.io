@@ -11,7 +11,7 @@ html {
 
 img {
     width: 65%;
-    
+
 }
 
 ul{
@@ -107,9 +107,9 @@ h4 {
 .collective-information {
     display: grid;
     grid-template-columns: 400px 400px;
-    grid-template-rows: 300px 100px 300px auto;
-     margin: 2rem auto;
-     background-color: black;
+    grid-template-rows: 600px 100px 100px auto;
+    margin: 1rem auto;
+    background-color: black;
 }
 .picture__description {
     line-height: 1.7;
@@ -118,6 +118,7 @@ h4 {
 .footer {
     color: white;
 }
+
 
 
 
