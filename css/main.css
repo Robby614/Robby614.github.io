@@ -9,7 +9,7 @@ html {
     font: 20px/1 "Big Shoulders Text", sans-serif;
 }
 
-img {
+.profile-picture {
     width: 65%;
     border-radius: 50%;
 
@@ -100,19 +100,20 @@ h4 {
     background-color: black;
 }
 .personal-info figure {
+    margin: 0rem;
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 400px 350px;
     text-align: left;
 }
 
 
-.collective-information {
+/* .collective-information {
     display: grid;
     grid-template-columns: 400px 400px;
     grid-template-rows: 600px 100px 100px auto;
     margin: 1rem auto;
     background-color: black;
-}
+} */
 .picture__description {
     line-height: 1.7;
 }
